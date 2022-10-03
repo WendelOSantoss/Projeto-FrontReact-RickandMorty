@@ -1,0 +1,44 @@
+.home{
+    display: flex;
+    min-height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-list {
+    display: flex;
+    min-height: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.color{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-card {
+    display: flex;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    width: 30%;
+}
+
+.display-button {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}

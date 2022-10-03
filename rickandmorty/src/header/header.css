@@ -1,0 +1,27 @@
+.modal-button{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(192,192,192);
+    padding: 5px 10px 5px 15px;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    padding-left: 10px;
+}

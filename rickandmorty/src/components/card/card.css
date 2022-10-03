@@ -1,0 +1,17 @@
+.card-component {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(255, 255, 255, 0.6) 35%, rgb(0, 126, 255, 0.6) 100%);
+  }
+  
+  .card-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
