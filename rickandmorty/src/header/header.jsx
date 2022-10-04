@@ -1,6 +1,6 @@
 import Modal from "react-modal";
 import { useState } from "react";
-import { AiOutlineFileAdd } from "react-icons/ai";
+import { MdAddCircle } from "react-icons/md";
 import { Form } from "../components/form/form";
 import "./header.css";
 
@@ -34,13 +34,13 @@ export function Header({ getALL }) {
     <>
       <header className="header">
         <section className="header-section">
-          <img src="./liga.png" alt="logo" height="40" width="40"></img>
+          <img src="https://img.icons8.com/color/344/rick-sanchez.png" alt="logo" height="40" width="40"></img>
           <h2 className="name">Rick and Morty Personagens</h2>
         </section>
         <section>
           <button className="modal-button" onClick={handleModal}>
-            <AiOutlineFileAdd size={28} />
-            Add Personagem
+            <MdAddCircle size={28} />
+            Adicionar Personagem
           </button>
         </section>
       </header>
